@@ -2,7 +2,7 @@ import type { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 import { ComponentChildren, Fragment } from "preact";
 import { BlogPost } from "../../types.ts";
-import { useId } from "../../../../sdk/useId.ts";
+import { useId } from "preact/hooks";
 import { useSection as useSection } from "@deco/deco/hooks";
 export interface CTA {
   text?: string;
