@@ -1,1 +1,1 @@
-# breton-deco-blog
+# App Template
